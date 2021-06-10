@@ -1,0 +1,74 @@
+.caja{
+    width: 400px;
+    height: 400px;
+}
+
+.uno{
+    background-color: #ffff00;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 8px solid #008080;
+    border-radius: 20px;
+
+}
+
+.dos{
+    background-color: #008080;
+    border-radius: 50%;
+}
+
+.A{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-bottom-right-radius:50% ;
+}
+
+.B{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-bottom-right-radius:80px ;
+}
+
+.C{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-bottom-right-radius:  80px 120%;
+}
+
+.D{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-radius: 70px 20% 70px 20%;
+
+    
+}
+
+.E{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-radius: 70px 20% /100px 20%;
+    
+
+    
+    
+}
+
+.F{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    border-radius: 50%;
+
+    
+}

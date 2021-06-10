@@ -1,0 +1,42 @@
+body{
+    
+    background-color: silver;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 1000px;
+}
+
+em{
+    color: red;
+}
+
+img{
+    float: right;
+    margin:  50px 30px ;
+}
+
+.html{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: honeydew;
+    background-color: gray;
+    text-align: left;
+}
+
+.css{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: honeydew;
+    background-color: gray;
+    text-align: left;
+}

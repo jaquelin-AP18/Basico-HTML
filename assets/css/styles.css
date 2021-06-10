@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration:cadetblue underline ;
+    text-transform: uppercase;
+}
+
+div{/* Se hace referencia al elemento que se quiere modificar, se pueden utilizar clases y solo
+    solo se coloca el nombre de la clase*/
+    height: 300px;
+    width: 400px;  
+    margin: 20px; /* Se puede utilizar margin top (superior)
+    y margin left(lados) fuera del elemento es decir por separado/lado*/
+    padding: 20px; /* Utilizados para dar margenes dentro del elemento*/
+}
+
+.uno{
+    background-image: url('../images/top.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+.dos{
+    background-color: lightsalmon;
+}

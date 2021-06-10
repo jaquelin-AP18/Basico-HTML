@@ -1,0 +1,21 @@
+.cajas{
+    max-width: 900px;
+    
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    border: 4px solid crimson;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: #d1c95a;
+    margin: 10px;
+    border: 6px solid coral;
+    float: left;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}

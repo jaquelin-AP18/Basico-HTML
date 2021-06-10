@@ -1,0 +1,60 @@
+body{
+    background-color: #6b3f3f;
+}
+/* Esto significa que inmediatamente dentro de Header hay un H1 */
+header > h1{
+    /* color: green; */
+    color: rgb(0, 0, 5);
+    text-align: center;
+    letter-spacing: 10px; /* Es el espaciado que existe entre cada letra */
+}
+/* Aquí le estamos diciendo que dentro de header hay un h1, esto afectaria a todos los headers */
+/* header  h1{
+    color: green;
+} */
+
+/* Dentro de mi etiqueta main tengo una article, dentro de ella una section */
+main > article > section{
+    width: 90%; /* Le indicamos que le damos un ancho del 90% por lo que no usa todo lo de la página */
+    margin: 0 auto; /* Al hacerlo así especificamos como queremos que se establezcan los margenes. El primer valor hace referencia al margen superior eh inferior. El segundo valor toma a la derecha y a la izquierda */
+    /* margin: 20px 10px 15px 50px; Especificamos espacio en sentido de las manecillas, arriba, derecha, abajo e izquierda*/
+
+}
+
+main > article > section > h3{
+    font-size: 28px;
+    background-color: gray;
+    color:white;
+    padding: 5px 5px; /* Damos un margen interno 5px arriba y abajo. Y 5px a los lados */
+    /* Si metemos 3 valores nos toma arriba, ambos extremos, abajo */
+
+}
+
+main > article > section > div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Esto normalmente no es tan utilizado, sin embargo, lo más utilizado es usar clases. */
+main > article > section > div > img{
+    float:left; /* Lo que hace es hacer que se mande a la izquierda. Cuando usamos float se encima por lo que necesitamos hacer un limpliado */
+    margin-right: 20px;
+}
+
+main > article > section > div > p {
+    text-align: justify; /* Justificamos texto */
+    text-indent: 15px; /* Hace una indentación del texto */
+}
+
+main > article > section > div > p > em{
+    color: red;
+}
+
+main > article > section > div > p > span{
+    background-color: white;
+}
+
+.clear-fix{
+    clear: both; /* Limpia los lados */
+    float: none; /* Elimina el flotado */
+}
